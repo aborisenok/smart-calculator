@@ -28,7 +28,7 @@ class SmartCalculator {
     return this;
   }
  
-  toString(){
+  valueOf(){
     return eval(this.initialValue);
   }
 }
